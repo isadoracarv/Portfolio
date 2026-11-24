@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turmas</title>
+    <link rel="stylesheet" href="turmas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="img/icon.png" alt="Logo">
+
+                <p><a href="menu.html">Menu</a></p>
+                <li><a href="turmas.html">Turmas</a></li>
+
+                <li><a href="alunos.html">Alunos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+
+            <div>
+                <img src="img/icone.avif" alt="Perfil" class="img-perfil">
+            </div>
+
+            <button class="btn-sair"><a href="index.html">Sair</a></button>
+        </nav>
+    </header>
+
+    <section>
+        <form action="">
+            <h2>Cadastrar Turma:</h2>
+            <fieldset>
+                <div class="nome">
+                    <label for="name"><b>Nome:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="name" id="text" placeholder="Insira o nome completo...">
+                    </div>
+                </div>
+
+                <div class="periodo">
+                    <label for="periodo"><b>Período:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <input id="periodo" type="text" placeholder="Insira o período...">
+                    </div>
+                </div>
+
+                <div class="professor">
+                    <label for="eprofessor"><b>Professor:</b></label>
+                    <div class="input-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" id="professor" placeholder="Insira o nome...">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button class="btn-cadastro"><a href="#"></a><b class="b-cadastro">Cadastrar</b></button>
+
+        </form>
+    </section>
+
+
+    <h3>Lista de Turmas:</h3>
+
+
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Período</th>
+            <th>Professor</th>
+            <th class="acoes">Ações</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1DTM</td>
+                <td>Integral</td>
+                <td>Bruna</td>
+                <td class="lapis">✏️🗑️</td>
+            </tr>
+
+            <tr>
+                <td>1ETM</td>
+                <td>Integral</td>
+                <td>Sávio</td>
+                <td class="lapis">✏️🗑️</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
