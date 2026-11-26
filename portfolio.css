@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: #EDE4D4;
+}
+
+.secao-sobre{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.secao-sobre2{
+    background-color: #73203C;
+    width: 70%;
+    border-radius: 35px 0 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 75px;
+    left: -490px; 
+}
+.titulo h1{
+    line-height: 0.60;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+.linha-1{
+    color: #A86475;
+    font-size: 90px;
+}
+.linha-2{
+    color: #C996A2;
+    font-size: 90px;
+}
+.nome{
+    color: #C98A9B;
+    letter-spacing: 8px; 
+    margin-top: 14px;
+    font-size: 40px;
+    font-family: "Ponomar", system-ui;
+    font-weight: 350;
+    letter-spacing: 11.69px;
+    font-style: normal;
+}
+
+.conteudo-texto{
+    max-width: 65%;
+    color: #F5F5F5;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+.conteudo-img{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.conteudo-img img{
+    margin-left: 200px;
+    height: 500px;
+}
+
+.ferramentas, .tecnologias, .certificados, .atuacao{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ferramentas h2, .tecnologias h2, .certificados h2, .atuacao h2{
+    color: #C49334;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.icones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 80px;
+    margin-top: 100px;
+    grid-column: 1 / -1;
+}
+.icones h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #73203C;
+    display: flex;
+    justify-content: center;
+}
+
