@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castro de Alunos</title>
+    <link rel="stylesheet" href="alunos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="img/icon.png" alt="Logo">
+                <p><a href="menu.html">Menu</a></p>
+
+                <li><a href="turmas.html">Cadastro de <span>Turmas</span></a></li>
+                <li><a href="listTurma.html">Listagem de <span>Turmas</span></a></li>
+
+                <li><a href="listProjetos.html">Listagem de <span>Projetos</span></a></li>
+
+                <li><a href="listAlunos.html">Listagem de <span>Alunos</span></a></li>
+            </ul>
+
+            <div>
+                <img src="img/icone.avif" alt="Perfil" class="img-perfil">
+            </div>
+
+            <button class="btn-sair"><a href="index.html">Sair</a></button>
+        </nav>
+    </header>
+    <section>
+
+
+
+        <form action="">
+            <h2>Cadastrar Aluno:</h2>
+            <fieldset>
+                <div class="nome">
+                    <label for="name"><b>Nome completo:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="nome" placeholder="Insira seu nome completo...">
+                    </div>
+                </div>
+
+                <div class="sobre">
+                    <label for="sobre"><b>Sobre o aluno:</b></label>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <textarea id="sobre" rows="4" placeholder="Insira sobre o aluno..."></textarea>
+                    </div>
+                </div>
+
+                <div class="area">
+                    <label for="area"><b>Área de atuação:</b></label>
+                    <div class="input-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" id="area" placeholder="Insira a área de atuação...">
+                    </div>
+                </div>
+
+                <div class="tecnologias">
+                    <label for="tecnologias"><b>Tecnologias:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <input id="tecnologias" type="text" placeholder="Insira as tecnologias conhecidas...">
+                    </div>
+                </div>
+
+                <div class="habilidades">
+                    <label for="habilidades"><b>Habilidades/Certficados:</b></label>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <textarea id="habilidades" rows="4" placeholder="Insira as habilidades do aluno..."></textarea>
+                    </div>
+                </div>
+
+                <div class="ferramentas">
+                    <label for="ferramentas"><b>Ferramentas:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <input id="ferramentas" type="text" placeholder="Insira as ferramentas conhecidas...">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button class="btn-cadastro"><a href="#"></a><b>Cadastrar</b></button>
+
+        </form>
+    </section>
+    
+</body>
+</html>

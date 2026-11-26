@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link rel="stylesheet" href="projetos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="img/icon.png" alt="Logo">
+                <p><a href="menu.html">Menu</a></p>
+
+                <li><a href="turmas.html">Cadastro de <span>Turmas</span></a></li>
+                <li><a href="listTurma.html">Listagem de <span>Turmas</span></a></li>
+
+                <li><a href="listProjetos.html">Listagem de <span>Projetos</span></a></li>
+
+                <li><a href="alunos.html"> Cadastro de <span>Alunos</span></a></li>
+                <li><a href="listAlunos.html">Listagem de <span>Alunos</span></a></li>
+            </ul>
+
+            <div>
+                <img src="img/icone.avif" alt="Perfil" class="img-perfil">
+            </div>
+
+            <button class="btn-sair"><a href="index.html">Sair</a></button>
+        </nav>
+    </header>
+    <section>
+
+
+
+        <form action="">
+            <h2>Cadastrar Projeto:</h2>
+            <fieldset>
+                <div class="nome">
+                    <label for="tecnologias"><b>Nome do Aluno:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="nome" placeholder="Insira o nome do aluno...">
+                    </div>
+                </div>
+
+                <div class="titulo">
+                    <label for="titulo"><b>Título:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="titulo" placeholder="Insira o título do projeto...">
+                    </div>
+                </div>
+
+                <div class="descricao">
+                    <label for="descricao"><b>Descrição do projeto:</b></label>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <textarea id="descricao" rows="4" placeholder="Insira uma descrição..."></textarea>
+                    </div>
+                </div>
+
+                <div class="tecnologias">
+                    <label for="tecnologias"><b>Tecnologias Utilizadas:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="tecnologias" placeholder="Insira as tecnologias do projeto...">
+                    </div>
+                </div>
+
+                <div class="imagem">
+                    <label for="imagem"><b>Imagem/Vídeo:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="imagem" placeholder="Insira as imagens do projeto...">
+                    </div>
+                </div>
+
+                <div class="link">
+                    <label for="link"><b>Link do projeto:</b></label>
+                    <div class="input-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" id="link" placeholder="Insira o link do projeto...">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button class="btn-cadastro"><a href="#"></a><b>Cadastrar</b></button>
+
+        </form>
+    </section>
+</body>
+</html>
